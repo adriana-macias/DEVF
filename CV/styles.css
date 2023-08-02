@@ -1,0 +1,76 @@
+.pagina-bonita {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:aliceblue;
+}
+
+
+.titulo {
+    text-align: center;
+    font-family:fantasy;
+    border-bottom: 7px solid rgba(7, 75, 177, 0.706);
+
+}
+
+.image-profile
+{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.nombre
+{
+ font-style:oblique;
+ font-size: xx-large;
+ margin-left: 50px;
+}
+
+.PROFILE-DESCRIPTION
+{
+    text-align-last: center;
+    margin-top: 50px; 
+    border: solid;
+    
+    
+}
+
+.parte2
+{
+    text-align-last:center;
+    margin-top: 50px; 
+    border: solid;   
+}
+
+.parte3
+{
+    text-align-last:center;
+    margin-top: 50px;
+    border: solid;   
+}
+
+.pp3 {
+text-align: justify;
+margin-left: 50px;
+margin-right: 50px;
+}
+.parte4
+{
+    text-align-last: center;
+    margin-top: 50px; 
+    border: solid;   
+}
+
+.parte5
+{
+    text-align-last: center;
+    margin-top: 50px;
+    border: solid;   
+}
+
+.datos-personales {
+
+    text-align: left;
+    margin-left: 0px;
+    
+}
