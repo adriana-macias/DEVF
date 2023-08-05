@@ -29,9 +29,9 @@ border: 1px solid transparent;
     margin-right: 10px;
     background-attachment: fixed;     
 }
-.logo:hover {
+#pinterest-icon:hover {
     cursor: pointer;
-    background-color: rgba(202, 199, 199, 0.869);
+    background-color: rgb(206, 203, 203);
     padding:10px;
     border-radius: 50px;
     margin:0;
