@@ -1,0 +1,258 @@
+*{
+    font-family:'Arial';
+
+}
+
+
+.navbar-pinterest{
+background-color: #ffffff;
+width:100%;
+position: fixed;
+top:0;
+z-index:2;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-size: 1rem;
+padding: 1rem;
+border: 1px solid transparent;
+}
+
+
+#pinterest-icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-attachment: fixed;     
+}
+.logo:hover {
+    cursor: pointer;
+    background-color: rgba(202, 199, 199, 0.869);
+    padding:10px;
+    border-radius: 50px;
+    margin:0;
+}
+
+.opcion2{
+    cursor: pointer; 
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;   
+}
+.opcion2:hover {
+    color: #f9f9fb;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+    margin:0;
+}
+  
+.opcion3{
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.opcion3:hover {
+    color: #f9f9fb;
+    background-color: black;
+    transition: blackground-color 0.5s;
+    padding: 10px;
+    border-radius: 50px;
+    margin:0;
+
+}
+
+.opcion4{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contenedor-finder {
+    height: 40px;
+    width: 60%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.icono-buscador{
+    position:absolute;
+    display: flex;
+    padding-top:  10px;
+    padding-left: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+   }
+
+.finder{
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+    padding-left: 45px;
+    background-color: #e9e9eb;
+}
+
+#notificacion{
+    position:absolute;
+    top: 20px;
+    display: flex;
+    background-color: #ffffff;
+    margin-left: 80%; 
+    padding:8px;
+    border-radius: 50%; 
+    line-height: 50px;
+    cursor: pointer;     
+}
+#notificacion:hover{
+    cursor: pointer;
+    background-color: rgba(202, 199, 199, 0.869);
+    border-radius: 50px;
+}
+
+#mensajes{
+    position:absolute;
+    top: 20px;
+    display: flex;
+    background-color: #ffffff;
+    margin-left: 85%; 
+    padding:8px;
+    border-radius: 50%; 
+    line-height: 50px;
+    cursor: pointer; 
+}
+#mensajes:hover{
+    cursor: pointer;
+    background-color: rgba(202, 199, 199, 0.869);
+    border-radius: 50px;  
+}
+#image-profile{
+    position:absolute;
+    top: 20px;
+    display: flex;
+    background-color: #ffffff;
+    margin-left: 90%; 
+    padding:8px;
+    border-radius: 50%; 
+    line-height: 50px;
+    cursor: pointer;   
+}
+#image-profile:hover{
+    cursor: pointer;
+    background-color: rgba(202, 199, 199, 0.869);
+    border-radius: 50px; 
+}
+
+#contenido{
+    margin-top: 70px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+
+}
+
+.card-image{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: relative;
+    display:grid; 
+}
+.card-image img{
+    border-radius: 5%;
+}
+
+.row{
+    padding: 2%; 
+}
+
+.columnas{
+    width: 100%;
+    padding: 5px;
+    columns: 5 300px;
+}
+
+.columnas card-image{
+    margin-top: 5px;
+}
+
+.Guardar {
+    background-color: red;
+    padding: 8px;
+    border-radius: 25px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-weight:normal;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.botones {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.5);
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.botones:hover {
+    opacity: 1;
+
+}
+
+.compartir {
+    background-color: aliceblue;
+    padding:0px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.compartir img {
+    margin: auto;
+}
+
+.mas {
+    background-color: aliceblue;
+    padding: 0px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.mas img {
+    margin: auto;
+}
+
+@media only screen and (min-width: 1025px) {
+    .columnas{
+        column-count: 8;
+    }
+}
+
